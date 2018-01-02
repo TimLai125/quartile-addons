@@ -9,13 +9,11 @@
     'category': 'Extra Tools',
     'license': "AGPL-3",
     'description': """
-This module provides the following features:
-
-- Japan address input field layout
-- Translations of 都道府県
+This module provides the Japan address input field layout.
     """,
     'summary': "",
     'depends': [
+        'base',
     ],
     'data': [
         'views/res_partner_views.xml',
